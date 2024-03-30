@@ -17,5 +17,5 @@ while true; do
     fi
 
     # 等待一段时间再次检查，避免过于频繁的轮询
-    sleep 5
+    sleep 60
 done
