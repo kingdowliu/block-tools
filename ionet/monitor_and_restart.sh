@@ -10,7 +10,7 @@ while true; do
     if ! docker container ps | grep io-worker-monitor; then
         cd "$DIRECTORY"
         # 下面这一行替换成自己的启动命令，可去ionet官网查
-        ./launch_binary_mac --device_id=ee2362ed-287c-4467-b6b7-e594bac18dbf --user_id=aaed3cb5-3c83-49d2-a27b-7d4d8b575be1 --operating_system="macOS" --usegpus=false --device_name=tico
+        ./launch_binary_mac --device_id=ee2362ed-287c-4467-b6b7-e594bac12bf --user_id=aaed3cb5-5683-49d2-a27b-7d4d8b575be1 --operating_system="macOS" --usegpus=false --device_name=tico
         echo "容器已启动。"
     else
         echo "容器正在运行，无需操作。"
