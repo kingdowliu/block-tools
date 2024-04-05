@@ -134,8 +134,6 @@ function run() {
 
     if (utcHours < 5 || (utcHours === 5 && utcMinutes === 0)) {
         simulateClick();
-    } else {
-        simulateClick();
     }
 }
 
