@@ -123,7 +123,6 @@ async function clickPoo() {
         confirmElement.dispatchEvent(clickEvent);
     } else {
         console.log('没有找到匹配的元素');
-        // await clickEntrance();
     }
 }
 
