@@ -6,3 +6,5 @@
 - [IONet自动重启](./ionet/monitor_and_restart.sh)
 ## okzoo
 - [任务自动定时执行](./okzoo/simulate_click.js)
+## rune
+- [查询服务是否被部署](./rune/rune.py)
